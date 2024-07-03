@@ -15,6 +15,10 @@
   font-family: Poppins, sans-serif;
 }
 
+.navbar > .icon-brand > a:hover,
+.icon-brand > a:focus {
+  color: #fff;
+}
 .active > a:hover {
   color: #fff;
 }
@@ -101,3 +105,34 @@
 }
 
 /* end of dokan shop video */
+
+/* footer */
+
+.footer > .footer-content > .upper-part > .logo > .fa-user-secret {
+  font-size: 6rem;
+}
+
+.footer > .footer-content > .upper-part > .shopping > ul,
+.links > ul,
+.help > ul {
+  list-style: none;
+}
+
+.footer > .footer-content > .down-part > p {
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+/* end of footer */
+
+/* ------------------------- */
+/* landing page */
+/* ------------------------- */
+
+/* landing */
+
+.landing {
+  height: 75vh;
+  background-size: cover;
+  background-image: url(../assets/img/contact/about-us-page-heading.jpg);
+}
